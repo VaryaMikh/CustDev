@@ -1,0 +1,25 @@
+.button {
+	border: 1px solid white;
+	padding: 13px 25px;
+	background-color: white;
+	color: #2F80ED;
+	border-radius: 50px;
+}
+
+.button.-green {
+	border: 1px solid #64E2CD;
+	background-color: #64E2CD;
+	color: white;
+}
+
+.button.-green.-shadow {
+	box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+	.button.-kurs {
+		display: none;
+	}
+
+}

@@ -1,0 +1,9 @@
+.header__triangle {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.header__triangle {
+		display: block;
+	}
+}

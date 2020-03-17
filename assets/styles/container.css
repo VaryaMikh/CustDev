@@ -1,0 +1,26 @@
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*width: 0;
+	height: 0;
+	border-top: 15px solid black;
+	border-left: 0px solid transparent;
+	border-right: 20px solid transparent;
+	margin-left: 20px;
+	margin-bottom: 10px;*/
+
+@media screen and (max-width: 1023px) {
+	.container {
+		width: 768px;
+		padding: 0 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.container {
+		width: 320px;
+		padding: 0 20px;
+	}
+}

@@ -1,0 +1,41 @@
+.profession {
+	height: 100vh;
+	padding: 50px;
+	background-image: url("../img/bgProfession.png");
+	background-size: cover;
+	position: relative;
+	margin-top: 200px;
+}
+
+.profession__name {
+	margin-top: 200px;
+}
+
+.profession__title {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.profession__info {
+	margin-top: 100px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.profession__table {
+	width: 25%;
+}
+
+.profession__who {
+	font-weight: 600;
+	font-size: 14px;
+	color: #2F80ED;
+	margin-bottom: 20px;
+}
+
+.profession__desc {
+	font-weight: normal;
+	font-size: 14px;
+	color: #636363;
+}

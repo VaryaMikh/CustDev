@@ -1,0 +1,27 @@
+.hero { 
+	height: 100vh; 
+	background-image: url("../img/bgHero.png");
+	background-size: cover; 
+	padding-top: 10px;
+}
+
+.hero__sub {
+	font-size: 16px;
+	color: white;
+	font-weight: 500;
+}
+
+.hero__title {
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+	margin-top: 30px;
+}
+
+.hero__sub.-t {
+	margin-top: 100px;
+}
+
+.hero__sub.-b {
+	margin-top: 30px;
+}

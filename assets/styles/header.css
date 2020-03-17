@@ -1,0 +1,46 @@
+.header, .header__right, .header__location, .header__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__location {
+	width: 30%;
+	margin-right: 10%;
+}
+
+.header__right {
+	width: 60%;
+}
+
+.header__nav {
+	width: 65%;
+}
+
+.header__link {
+	color: white
+}
+
+.header__link.-blue {
+	color: #2F80ED;
+}
+
+.header__link.-kurs {
+	display: none;
+}
+
+@media screen and (max-width: 1023px) {
+	.header__link {
+		display: none;
+	}
+
+	.header__link.-blue, .header__link.-kurs {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__link.-blue{
+		display: none;
+	}
+}
