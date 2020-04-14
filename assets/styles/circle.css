@@ -1,16 +1,19 @@
-.circle.-text {
+.circle {
 	width: 230px;
 	height: 230px;
-	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
-	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 	border-radius: 50%;
-	position: absolute;
-	top: 200px;
+	position: absolute;	
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
-	color: #2F80ED;
+	color: var(--variable-blue);
+}
+
+.circle.-text {
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #F9FBFF 0%, #CADEF9 100%), #FFFFFF;
+	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+	top: 400px;
 }
 
 .circle__title {
@@ -39,29 +42,24 @@
 }
 
 .circle.-gray {
-	width: 230px;
-	height: 230px;
-	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	right: -50px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #FFFFFF 0%, #CADEF9 100%), #FFFFFF;
 	box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
 	filter: blur(20px);
-	position: absolute;
-	top: 15px;
-	right: -50px;
+}
+
+.circle.-course {
+	width: 125px;
+	height: 125px;
+	background: radial-gradient(68.31% 68.31% at 50% 50%, #6AAAFF 0%, var(--variable-blue) 100%), #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 1023px) {
-	.circle.-text {
-		top: 200px;
-	}
-
 	.circle.-gray {
 		display: none;
-	}
-}
-
-@media screen and (max-width: 767px) {
-	.circle.-text {
-		top: 350px;
 	}
 }

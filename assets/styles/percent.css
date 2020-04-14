@@ -1,3 +1,7 @@
+:root {
+  --height: #fff;
+}
+
 .percent {
 	height: 100vh;
 	margin-top: 150px;
@@ -61,8 +65,8 @@
 	}
 
 	.percent__table {
-		width: 180px;
-		height: 180px;
+		width: 350px;
+		height: 350px;
 		padding: 10px;
 	}
 

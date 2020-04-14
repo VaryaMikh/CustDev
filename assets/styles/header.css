@@ -22,7 +22,7 @@
 }
 
 .header__link.-blue {
-	color: #2F80ED;
+	color: var(--variable-blue);
 }
 
 .header__link.-kurs {

@@ -1,0 +1,21 @@
+.course__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.course__info_l {
+	width: 49%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.course__link {
+	font-weight: 600;
+	font-size: 14px;
+	width: 269px;
+	text-transform: uppercase;
+	color: var(--variable-blue);
+	border-bottom-style: dashed;
+}
