@@ -1,8 +1,20 @@
 .hero { 
 	height: 100vh; 
 	background-image: url("../img/bgHero.png");
-	background-size: cover; 
-	padding-top: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero__content {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.hero__info {
+	width: 50%;
+	position: relative;
+	padding-top: 100px;
 }
 
 .hero__sub {
@@ -18,10 +30,28 @@
 	margin-top: 30px;
 }
 
-.hero__sub.-t {
-	margin-top: 100px;
-}
-
 .hero__sub.-b {
 	margin-top: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+	.hero {
+		background-size: 1200px;
+	}
+
+	.hero__info {
+		width: 100%;
+		padding-left: 280px;
+		padding-top: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hero {
+		background-position-x: -450px;
+	}
+
+	.hero__info {
+		padding-left: 0;
+	}
 }

@@ -1,0 +1,25 @@
+.burger {
+	display: none;
+}
+
+.burger i {
+	display: block;
+	margin-bottom: 7px;
+	width: 30px;
+	height: 2px;
+	background-color: white;
+}
+
+.burger i:nth-child(2) {
+	width: 20px;
+}
+
+.burger i:last-child {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+	.burger {
+		display: block;	
+	}
+}

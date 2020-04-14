@@ -9,7 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="./assets/styles/hero.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/hero__content.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header.css">
-	<link rel="stylesheet" type="text/css" href="./assets/styles/header__burger.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/burger.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/header__triangle.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
 	<link rel="stylesheet" type="text/css" href="./assets/styles/circle.css">
@@ -21,49 +21,44 @@
 </head>
 <body>
 	<section class="hero">
-		<div class="container">
-			<div class="header">
-				<div class="header__location">
-					<div class="SPb">
-						<a href="#" class="header__link -blue">САНКТ-ПЕТЕРБУРГ</a>
-						<div class="header__triangle"></div>
-					</div>
-					<a href="#" class="header__link">МОСКВА</a>
-					<a href="#" class="header__link">МИНСК</a>
-					<a href="" class="header__link -kurs">Запись на курс</a>
+		<div class="header">
+			<div class="header__location">
+				<div class="SPb">
+					<a href="#" class="header__link -blue">САНКТ-ПЕТЕРБУРГ</a>
+					<div class="header__triangle"></div>
 				</div>
-				<div class="header__right">
-					<nav class="header__nav">
-						<a href="#" class="header__link">Программа</a>
-						<a href="#" class="header__link">Отзывы</a>
-						<a href="#" class="header__link">Стоимость</a>
-						<a href="#" class="header__link">О преподователе</a>
-					</nav>
-					<button class="button -kurs">Запись на курс</button>
-					<div class="header__burger">
-						<div class="header__stick"></div>
-						<div class="header__stick -m"></div>
-						<div class="header__stick"></div>
-					</div>
+				<a href="" class="header__link -kurs">Запись на курс</a>
+			</div>
+			<div class="header__right">
+				<nav class="header__nav">
+					<a href="#" class="header__link">Программа</a>
+					<a href="#" class="header__link">Отзывы</a>
+					<a href="#" class="header__link">Стоимость</a>
+					<a href="#" class="header__link">О преподователе</a>
+				</nav>
+				<button class="button -kurs">Запись на курс</button>
+				<div class="burger">
+					<i></i>
+					<i></i>
+					<i></i>
 				</div>
 			</div>
-
+		</div>
+		<div class="container">
 			<div class="hero__content">
-				<div class="hero__content_left">
-					<div class="circle -text">
-						<p class="circle__title">Оценка</p>
-						<h2 class="circle__mark">9 из 10</h2>
-						<p class="circle__avtor">Иван Матвиенко</p>
-						<p class="circle__company">Solvery</p>
-						<p class="circle__comment">Читать отзыв →</p>
-					</div>
-				</div>
-				<div class="hero__content_right">
+				<div class="hero__info">
 					<h2 class="hero__sub -t">САНКТ-ПЕТЕРБУРГ 10-21 МАЯ</h2>
 					<h1 class="hero__title">Начни делать Customer Development и проверять гипотезы</h1>
 					<h2 class="hero__sub -b">На оффлайн курсе из 5 воркшопов</h2>
-					<button class="button -green -shadow">Записаться</button>
+					<button class="button -success -shadow">Записаться</button>
 				</div>
+			</div>
+			<div class="circle -text -hero">
+				<p class="circle__title">Оценка</p>
+				<h2 class="circle__mark">9 из 10</h2>
+				<p class="circle__avtor">Иван Матвиенко</p>
+				<p class="circle__company">Solvery</p>
+				<p class="circle__comment">Читать отзыв →</p>
 			</div>
 		</div>
 	</section>

@@ -6,13 +6,13 @@
 	border-radius: 50px;
 }
 
-.button.-green {
+.button.-success {
 	border: 1px solid #64E2CD;
 	background-color: #64E2CD;
 	color: white;
 }
 
-.button.-green.-shadow {
+.button.-success.-shadow {
 	box-shadow: 0 0 0 15px rgba(100, 226, 205, 0.5);
 	margin-top: 40px;
 }
