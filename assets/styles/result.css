@@ -1,0 +1,20 @@
+.result {
+	height: 100vh;
+	background-image: url("../img/bgResult.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.result__content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.result__info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}

@@ -1,3 +1,7 @@
+.course {
+	height: 100vh;
+}
+
 .course__info {
 	display: flex;
 	justify-content: space-between;
