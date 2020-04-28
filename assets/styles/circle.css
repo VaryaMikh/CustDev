@@ -48,11 +48,15 @@
 }
 
 .circle.-course {
-	width: 125px;
-	height: 125px;
+	width: 80px;
+	height: 80px;
 	background: radial-gradient(68.31% 68.31% at 50% 50%, #6AAAFF 0%, var(--variable-blue) 100%), #FFFFFF;
     box-shadow: 0px 10px 50px rgba(119, 157, 255, 0.3);
     margin-right: 20px;
+    position: absolute;
+    top: -30px;
+    right: -40px;
+
 }
 
 .circle.-hero {
@@ -75,6 +79,11 @@
 @media screen and (max-width: 1023px) {
 	.circle.-gray {
 		display: none;
+	}
+
+	.circle.-course {
+		top: 10px;
+		right: -50px;
 	}
 }
 

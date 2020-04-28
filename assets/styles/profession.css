@@ -1,11 +1,11 @@
 .profession {
 	position: relative;
-	height: 100vh;
+	height: 615px;
 	padding: 50px;
 	background-image: url("../img/bgProfession.png");
 	background-size: cover;
 	position: relative;
-	margin-top: 200px;
+	margin-top: 50px;
 	overflow-x: hidden;
 }
 

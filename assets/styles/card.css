@@ -18,6 +18,7 @@
 
 .card.-course {
 	width: 48%;
+	height: 100px;
 }
 
 .card.-shadow.-course {
@@ -26,11 +27,16 @@
 }
 
 .card.-result {
-	width: 48%;
-	height: 200px;
+	width: 43%;
+	height: 170px;
 	background-color: white;
 	box-shadow: 0px 10px 30px rgba(47, 55, 237, 0.1);
 	border-radius: 10px;
+	padding: 30px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .card__title {
@@ -54,6 +60,25 @@
 .card__img {
 	width: 40px;
 	height: 40px;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+	.card.-shadow.-course {
+		margin-top: 60px;
+	}
+
+	.card__title {
+		margin-bottom: 15px;
+	}
+
+	.card__desc {
+		margin-bottom: 20px;
+	}
+
+	.card.-result {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -67,5 +92,19 @@
 
 	.card__desc {
 		margin-bottom: 30px;
+	}
+
+	.card.-result {
+		flex-direction: column;
+		height: 230px;
+	}
+
+	.card__img {
+		margin-bottom: 30px;
+	}
+
+	.card.-course {
+		margin-bottom: 20px;
+		height: 150px;
 	}
 }

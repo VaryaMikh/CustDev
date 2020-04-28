@@ -3,15 +3,15 @@
 }
 
 .percent {
-	height: 100vh;
-	margin-top: 150px;
+	height: 400px;
+	margin-top: 60px;
 }
 
 .percent__content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 100vh;
+	height: 350px;
 }
 
 .percent__left {
