@@ -31,3 +31,9 @@
 	.result__info{
 		flex-direction: column;}
 } 
+
+@media screen and (max-width: 767px) {
+	.result {
+		height: auto;
+	}
+}

@@ -43,6 +43,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	.profession {
+		height: auto;
+	}
+
 	.profession__info {
 		flex-direction: column;
 		margin-top: 20px;

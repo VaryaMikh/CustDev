@@ -76,6 +76,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	.percent {
+		height: auto;
+	}
+
 	.percent__title {
 		font-size: 24px;
 	}

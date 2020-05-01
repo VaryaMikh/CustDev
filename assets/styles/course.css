@@ -60,6 +60,10 @@
 }
 
 @media screen and (max-width: 767px) {
+	.course {
+		height: auto;
+	}
+
 	.course__info_l {
 		flex-direction: column;
 		height: 600px;
