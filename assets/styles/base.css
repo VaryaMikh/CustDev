@@ -15,3 +15,7 @@ img {
 a {
 	text-decoration: none;
 }
+
+section:not(.hero) {
+	padding: 50px 0;
+}
