@@ -67,6 +67,7 @@
 	.course__info_l {
 		flex-direction: column;
 		height: 600px;
+		width: 100%;
 	}
 
 	.course__info_r {

@@ -105,6 +105,6 @@
 
 	.card.-course {
 		margin-bottom: 20px;
-		height: 150px;
+		height: calc(100% / 4);
 	}
 }
