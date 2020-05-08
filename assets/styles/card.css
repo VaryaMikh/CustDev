@@ -88,6 +88,7 @@
 
 	.card.-transparent {
 		width: 100%;
+		margin-bottom: 20px;
 	}
 
 	.card__desc {
@@ -97,6 +98,7 @@
 	.card.-result {
 		flex-direction: column;
 		height: 230px;
+		justify-content: center;
 	}
 
 	.card__img {
@@ -106,5 +108,10 @@
 	.card.-course {
 		margin-bottom: 20px;
 		height: calc(100% / 4);
+		width: 99%;
+	}
+
+	.card__desc {
+		margin-bottom: 0;
 	}
 }

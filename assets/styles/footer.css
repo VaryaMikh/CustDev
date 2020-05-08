@@ -1,0 +1,54 @@
+.footer__content {
+	padding: 0 30px;
+	background-color: var(--variable-blue);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 120px;
+}
+
+.footer__cities, .footer__info_r {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__city {
+	font-weight: 100;
+	font-size: 14px;
+	color: white;
+	margin-right: 20px;
+}
+
+.footer__city.-SPb {
+	font-weight: bold;
+}
+
+.footer__link {
+	font-weight: 100;
+	font-size: 14px;
+	color: var(--variable-blue);
+	padding: 10px 15px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.footer__info {
+	background-color: #185FBF;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.footer__desc {
+	font-weight: 100;
+	font-size: 14px;
+	color: white;
+	margin-left: 15px;
+}
+
+.footer__desc:first-child {
+	margin-left: 0;
+}
